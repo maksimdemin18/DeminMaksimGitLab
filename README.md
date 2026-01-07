@@ -48,12 +48,13 @@
 5. `vagrant ssh -- sudo cat /etc/gitlab/initial_root_password`
    ```
    # WARNING: This value is valid only in the following conditions
-#          1. If provided manually (either via `GITLAB_ROOT_PASSWORD` environment variable or via `gitlab_rails['initial_root_password']` setting in `gitlab.rb`, it was provided before database was seeded for the first time (usually, the first reconfigure run).
-#          2. Password hasn't been changed manually, either via UI or via command line.
-#
-#          If the password shown here doesn't work, you must reset the admin password following https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
+   #          1. If provided manually (either via `GITLAB_ROOT_PASSWORD` environment variable or via `gitlab_rails['initial_root_password']` setting in `gitlab.rb`, it was provided before database was seeded for the first time (usually, the 
+   first reconfigure run).
+   #          2. Password hasn't been changed manually, either via UI or via command line.
+   #
+   #          If the password shown here doesn't work, you must reset the admin password following https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
 
-Password:
+   Password:
    ```
 6. авторизуемся и создаем репозиторий
 ![photo_2026-01-06_14-48-13](https://github.com/user-attachments/assets/310f9ecc-655d-469f-8a82-321817f2c376)
