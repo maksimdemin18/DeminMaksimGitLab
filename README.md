@@ -66,66 +66,36 @@
 ![photo_2026-01-07_12-59-55](https://github.com/user-attachments/assets/8beae395-563a-45d9-8134-821dadc5cc4a)
 
 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
-
----
-
 ### Задание 2
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
+1. `git clone https://github.com/netology-code/sdvps-materials.git`
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+Cloning into 'sdvps-materials'...
+remote: Enumerating objects: 97, done.
+remote: Total 97 (delta 0), reused 0 (delta 0), pack-reused 97 (from 1)
+Receiving objects: 100% (97/97), 28.22 KiB | 28.22 MiB/s, done.
+Resolving deltas: 100% (38/38), done
 ```
+2. `cd sdvps-materials`
+3. `git remote rename origin upstream`
+4. `git remote add origin git@gitlab.localdomain:root/netology-gitlab.git`
+5. `git push -u origin main --force-with-lease`
+6. ` git push origin --tags`
+7. `git remote -v`
+```
+origin	git@gitlab.localdomain:root/netology-gitlab.git (fetch)
+origin	git@gitlab.localdomain:root/netology-gitlab.git (push)
+upstream	https://github.com/netology-code/sdvps-materials.git (fetch)
+upstream	https://github.com/netology-code/sdvps-materials.git (push)
+```
+8. <img width="3840" height="3240" alt="image" src="https://github.com/user-attachments/assets/87494567-b95e-42e2-85d5-d0330e14ecb4" />
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
 
-
----
+9. [.gitlab-ci.yml](.gitlab-ci.yml)
 
 ### Задание 3
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
 
 
