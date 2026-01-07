@@ -90,7 +90,8 @@ origin	git@gitlab.localdomain:root/netology-gitlab.git (push)
 upstream	https://github.com/netology-code/sdvps-materials.git (fetch)
 upstream	https://github.com/netology-code/sdvps-materials.git (push)
 ```
-8. <img width="3840" height="3240" alt="image" src="https://github.com/user-attachments/assets/87494567-b95e-42e2-85d5-d0330e14ecb4" />
+8. <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/93d09233-644b-4c7a-8cf6-6a938cfc6958" />
+
 
 
 9. [.gitlab-ci.yml](.gitlab-ci.yml)
